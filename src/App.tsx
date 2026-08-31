@@ -1,4 +1,5 @@
 import React from "react";
+import lightbulb from "./assets/lightbulb.png";
 import { Button, Container, Row, Col } from "react-bootstrap";
 import "./App.css";
 
@@ -17,7 +18,7 @@ function App(): React.JSX.Element {
                 automatically reload.
             </p>
 
-            <img src="https://via.placeholder.com/150" alt="Placeholder" />
+            <img src={lightbulb} alt="A lightbulb" />
 
             <ul>
                 <li>First item</li>
